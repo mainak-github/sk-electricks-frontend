@@ -20,7 +20,7 @@ import CRMContent from '@/components/crm/CRMcontent'
 import ReportsContent from '@/components/reports/ReportsContent'
 
 // Backend API URL - Updated to work with your MVC architecture
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8085/api'
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://sk-electricks-backend.onrender.com/api'
 
 // Access Control Wrapper Component with Backend API Integration
 function AccessControlWrapper({ moduleId, children, fallback = null }) {

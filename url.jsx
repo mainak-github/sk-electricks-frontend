@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8085";
+const BASE_URL = "https://sk-electricks-backend.onrender.com";
 
 const config = {
   API_URL: `${BASE_URL}/api/admin`,

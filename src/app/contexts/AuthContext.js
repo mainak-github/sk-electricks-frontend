@@ -5,7 +5,7 @@ import { createContext, useContext, useState, useEffect } from 'react'
 const AuthContext = createContext()
 
 // Backend API base URL - update this to match your backend
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8085/api'
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://sk-electricks-backend.onrender.com/api'
 
 export const useAuth = () => {
   const context = useContext(AuthContext)
